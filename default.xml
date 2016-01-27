@@ -30,7 +30,8 @@
   <project path="hardware/amlogic/libstagefrighthw" name="hardware_amlogic_libstagefrighthw" revision="marshmallow" remote="peyo"/>
   <project path="hardware/amlogic/wifi" name="hardware_amlogic_wifi" revision="master" remote="peyo"/>
   <project path="device/aml/odrc" name="device_aml_odrc" revision="marshmallow" remote="peyo"/>
-
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
   <remove-project name="device/asus/flo-kernel" />
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/lge/hammerhead-kernel" />
